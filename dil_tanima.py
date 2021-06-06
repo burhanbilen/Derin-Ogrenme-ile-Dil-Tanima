@@ -4,8 +4,7 @@ from sklearn.preprocessing import LabelEncoder, OneHotEncoder
 from keras.preprocessing.text import Tokenizer
 from keras.preprocessing import sequence
 from keras.models import Sequential
-from keras.optimizers import RMSprop
-from keras.layers import Dense, LSTM, BatchNormalization, Bidirectional
+from keras.layers import Dense, LSTM
 from keras.callbacks import ModelCheckpoint
 from keras.layers.embeddings import Embedding
 from sklearn.model_selection import train_test_split
